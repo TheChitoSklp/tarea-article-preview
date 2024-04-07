@@ -1,6 +1,7 @@
 {
   "name": "tarea-article-preview",
   "private": true,
+  "homepage": "https://TheChitoSklp.github.io/tarea-article-preview/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
