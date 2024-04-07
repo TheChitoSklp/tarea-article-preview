@@ -1,0 +1,12 @@
+.buroDesktop {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .buro {
+    display: none;
+  }
+  .buroDesktop {
+    display: block;
+    border-radius: 10px 0 0 10px;
+  }
+}

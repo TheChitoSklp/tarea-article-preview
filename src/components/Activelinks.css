@@ -1,0 +1,42 @@
+.links-container {
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  box-sizing: border-box;
+  border-radius: 0px 0px 10px 10px;
+  background: #48556a;
+  display: flex;
+  width: 327px;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 32px;
+  .fondo {
+    display: none;
+  }
+  .incon-container {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .links-container {
+    background-color: rgba(255, 255, 255, 0);
+    .fondo {
+      display: block;
+      position: absolute;
+      z-index: 0;
+      right: -205px;
+      bottom: 50px;
+    }
+    .incon-container {
+      position: absolute;
+      right: -160px;
+      bottom: 100px;
+    }
+    .arrowblack {
+      display: none;
+    }
+  }
+}

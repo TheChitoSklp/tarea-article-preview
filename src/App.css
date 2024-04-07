@@ -1,0 +1,26 @@
+.container-all {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 327px;
+  height: 512px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.5);
+}
+
+@media (min-width: 1200px) {
+  .container-all {
+    display: flex;
+    width: 730px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+  .buro {
+    display: none;
+  }
+  .buroDesktop {
+    display: block;
+    border-radius: 10px 0 0 10px;
+  }
+}

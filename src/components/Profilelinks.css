@@ -1,0 +1,16 @@
+.profile {
+  margin-top: 17px;
+  display: flex;
+  padding: 0 32px;
+  justify-content: space-between;
+  align-items: center;
+  .container-profile-info {
+    display: flex;
+    gap: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .profile {
+    margin-top: 0;
+  }
+}

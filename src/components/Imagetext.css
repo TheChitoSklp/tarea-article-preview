@@ -1,0 +1,10 @@
+.container-section {
+  article {
+    padding: 10px 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-section {
+    display: flex;
+  }
+}
